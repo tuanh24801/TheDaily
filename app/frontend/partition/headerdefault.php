@@ -30,7 +30,7 @@
                 <a href="#">TheDaily web bán đồ cũ đang có chương trình free ship 0đ</a>
             </div>
             <div class="phone">
-                <!-- <span>Call +0379452201</span> -->
+                <!-- <span></span> -->
             </div>
         </div>
         <!-- menu bar -->
