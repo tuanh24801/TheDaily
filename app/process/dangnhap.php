@@ -21,11 +21,13 @@
                 if($email == $row['email'] && $password == $row['matkhau']){
                         echo 'Đăng nhập thành công';
                         session_start();
+
                         $_SESSION['user_login'] = $row['id_nguoidung'];
                         die;
                 }
         }
         echo 'Đăng nhập thất bại';
+        die;
 
         
 
