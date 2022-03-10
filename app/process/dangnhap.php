@@ -2,7 +2,6 @@
         $email = $_POST['email'];
         $password = $_POST['password'];
      
-        require '../sendEmail/sendemail.php';
         require '../../database/config.php';
         
 
