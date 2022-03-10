@@ -56,7 +56,7 @@
               <div class="dropdown drop-active">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false"></button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                  <li><button class="dropdown-item" type="button"><a href="./sellproducts.php" class="a-item">Bán hàng</a></button></li>
+                  <li><button class="dropdown-item" type="button"><a href="./sellproducts.php" class="a-item">Đăng bán</a></button></li>
                   <li><button class="dropdown-item" type="button"><a href="./personal.php" class="a-item">Cá nhân</a></button></li>
                   <li><button class="dropdown-item" type="button"><a href="../process/dangxuat.php" class="a-item" id="userlogout">Đăng xuất</a></button></li>
                 </ul>
