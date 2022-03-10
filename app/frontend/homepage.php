@@ -53,7 +53,7 @@
                     </div>
                     <!-- details -->
                     <div class="product-details">
-                      <a href="productdetails.php?id=<?php echo $row['id_sanpham']?>" class="p-name"><?php echo $row['tensanpham']?></a>
+                      <a href="#" class="p-name"><?php echo $row['tensanpham']?></a>
                       <span class="p-price"><?php echo $row['giaban'] ?> vnđ</span>
                     </div>
                   </div>

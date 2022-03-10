@@ -36,7 +36,7 @@
                       <a href="#" class="add-cart">
                         <i class="fas fa-shopping-cart"></i>
                       </a>
-                      <a href="productdetails.php?id=<?php echo $row['id_sanpham']?>">
+                      <a href="#">
                       <img src="../uploads/<?php echo $row['anhsanpham']?>" alt="">
                       </a>
                     </div>
