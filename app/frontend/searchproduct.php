@@ -16,19 +16,7 @@
     
 ?>
 <div class="container-fluid">
-    <div class="row mt-3">
-        <div class="col-1"></div>
-        <div class="col-2">
-            chọn giá: 
-            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                <!-- <option selected>Chọn sản phẩm trong khoảng giá</option> -->
-                <option value="1">Tất cả</option>
-                <option value="1">0 - 100.000 vnđ</option>
-                <option value="2">100.000 - 300.000 vnđ</option>
-                <option value="3">300.000 - 500.000 vnđ</option>
-            </select>
-        </div>
-    </div>
+ 
     <section class="new-arrival mt-5">
         
         <!-- product container -->
@@ -45,7 +33,7 @@
                     <!-- img -->
                     <div class="product-img">
                       <!-- add cart -->
-                      <a href="productdetails.php?id=<?php echo $row['id_sanpham']?>" class="add-cart">
+                      <a href="#" class="add-cart">
                         <i class="fas fa-shopping-cart"></i>
                       </a>
                       <a href="productdetails.php?id=<?php echo $row['id_sanpham']?>">
@@ -54,7 +42,7 @@
                     </div>
                     <!-- details -->
                     <div class="product-details">
-                      <a href="productdetails.php?id=<?php echo $row['id_sanpham']?>" class="p-name"><?php echo $row['tensanpham']?></a>
+                      <a href="#" class="p-name"><?php echo $row['tensanpham']?></a>
                       <span class="p-price"><?php echo $row['giaban'] ?> vnđ</span>
                     </div>
                   </div>
