@@ -3,7 +3,6 @@
         $email = $_POST['email'];
         $password = $_POST['password'];
      
-        require '../sendEmail/sendemail.php';
         require '../../database/config.php';
         
         if($username == ''){
@@ -12,6 +11,10 @@
         }
         if($email == ''){
                 echo 'vui lòng điền thông tin email của bạn';
+                die;
+        }
+	   if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                echo "Định dạng mail không hợp lệ";
                 die;
         }
         if($password == ''){

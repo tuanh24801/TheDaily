@@ -2,16 +2,19 @@
         $email = $_POST['email'];
         $password = $_POST['password'];
      
-        require '../sendEmail/sendemail.php';
         require '../../database/config.php';
         
 
         if($email == ''){
-                echo 'vui lòng điền thông tin email';
+                echo 'Vui lòng điền thông tin email';
+                die;
+        }
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                echo "Định dạng mail không hợp lệ";
                 die;
         }
         if($password == ''){
-                echo 'vui lòng điền mật khẩu';
+                echo 'Vui lòng điền mật khẩu';
                 die;
         }
         
