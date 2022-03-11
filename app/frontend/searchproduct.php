@@ -1,18 +1,19 @@
 <?php
     session_start();
-   
+    if(isset($_POST['valuesearch'])){
+      $valuesearch = $_POST['valuesearch'];
+      $where = "WHERE tensanpham LIKE '%${valuesearch}%'";
+    }else{
+      $where = '';
+		  $valuesearch = '';
+    }
     if(isset($_SESSION['user_login'])){
         include './partition/headerlogin.php';
     }else{
         include '../../database/config.php';
         include './partition/headerdefault.php';
     }
-    if(isset($_POST['valuesearch'])){
-      $valuesearch = $_POST['valuesearch'];
-      $where = "WHERE tensanpham LIKE '%${valuesearch}%'";
-    }else{
-      $where = '';
-    }
+    
     
 ?>
 <div class="container-fluid">
