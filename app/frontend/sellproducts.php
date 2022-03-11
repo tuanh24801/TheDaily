@@ -37,13 +37,13 @@
                 <div class="mb-3 row">
                     <label for="staticEmail" class="col-sm-2 col-form-label">Số lượng</label>
                     <div class="col">
-                        <input type="number"  class="form-control" name="amount" required>
+                        <input type="number"  min = "1" step = "1" class="form-control" name="amount" required>
                     </div>
                 </div>
                 <div class="mb-3 row">
                     <label for="inputPassword" class="col-sm-2 col-form-label">Giá bán</label>
                     <div class="col">
-                        <input type="number" class="form-control" name="price" required>
+                        <input type="number" min = "0" step = "1" class="form-control" name="price" required>
                     </div>
                 </div>
                 <div class="mb-3 row">
