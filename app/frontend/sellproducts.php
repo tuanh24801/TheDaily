@@ -55,7 +55,7 @@
                 <div class="mb-3 row">
                     <label for="inputPassword" class="col-sm-2 col-form-label">số điện thoại</label>
                     <div class="col">
-                    <input type="text" class="form-control" name="phone" >
+                    <input type="tel" pattern="^\d{10}$" class="form-control" name="phone" >
                     </div>
                 </div>
                 <div class="mb-3 row">
