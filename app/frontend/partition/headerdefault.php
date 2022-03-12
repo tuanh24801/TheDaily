@@ -103,7 +103,7 @@
         <p id="note-if-signup"></p>
         <form>
             <input type="text" placeholder="Tên người dùng" name = "username" id="username">
-            <input type="email" pattern="[^ @]*@[^ @]*" placeholder="Email đăng kí" name = "email" id="email" >
+            <input type="email" placeholder="Email đăng kí" name = "email" id="email" >
             <input type="password" placeholder="Mật khẩu" name = "password" id="password">
             <!-- submit btn -->
             <input value="Đăng kí" class = "btn btnsignup" id="btnsignup">
