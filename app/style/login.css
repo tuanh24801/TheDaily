@@ -26,8 +26,16 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #08685b;
+    background-color: #0d569b;
     
+}
+.viewmore{
+    border: 1px solid #0e6072 ;
+    border-radius: 12px;
+}
+.viewmore:hover{
+    color: white;
+    background-color: #0e6072;
 }
 .social a{
     margin: 0px 5px;
@@ -48,7 +56,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0px 45px;
-    background-color: #95f1e5;
+    background-color: #073763;
 }
 .logo img{
     height: 30px;
@@ -117,7 +125,7 @@ nav{
     color: rgba(0, 0, 0, 0.7);
 }
 .right-menu .user-login{
-    background-color: #0b9d8a;
+    background-color: #0e6072;
     padding: 3px;
     border-radius: 5px;
     color: #f3f3f3;
@@ -133,14 +141,14 @@ nav{
 .user-login:hover{
     background-color: #f3f3f3;
     color:#0b9d8a;
-    border: 1px solid #0b9d8a;
+    border: 1px solid #0e6072;
 }
 .fa-shopping-cart,
 .fa-solid, .fa-arrow-right-from-bracket{
     position: relative;
 }
 .fa-arrow-right-from-bracket{
-    background-color: #0b9d8a;
+    background-color: #0e6072;
     padding: 10px;
     border-radius: 5px;
     color: #f3f3f3;
@@ -154,7 +162,7 @@ nav{
     height: 25px;
     font-size: 0.8rem;
     border-radius: 50%;
-    background-color: #0b9d8a;
+    background-color: #0e6072;
     color: #ffffffff;
     display: flex;
     justify-content: center;
@@ -255,7 +263,7 @@ nav{
 }
 .login-form input[type="submit"],
 .sign-up-form input[type="submit"]{
-    background-color: #0b9d8a;
+    background-color: #0e6072;
     color: #ffffffff;
     border: none;
     outline: none;
@@ -265,7 +273,7 @@ nav{
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
 }
 #btnsignup,#btnsignin{
-    background-color: #0b9d8a;
+    background-color: #0e6072;
     color: #ffffffff;
     border: none;
     outline: none;
@@ -362,7 +370,7 @@ nav{
     justify-content: center;
     align-items: center;
     color: #ffffffff;
-    background-color: #0b9d8a;
+    background-color: #0e6072;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 10px;
@@ -718,7 +726,7 @@ nav{
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: #95f1e5;
+    background-color: #073763;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05);
     z-index: 102;
 }

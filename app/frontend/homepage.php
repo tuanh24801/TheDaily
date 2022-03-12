@@ -71,7 +71,7 @@
     </section>
     <div class="row text-center mt-5">
         <div class="col">
-            <a href="searchproduct.php" class="btn btn-outline-success mt-5 mb-5">xem thêm</a>
+            <a href="searchproduct.php" class="btn viewmore mt-5 mb-5">xem thêm</a>
         </div>
     </div>
 
