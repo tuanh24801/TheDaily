@@ -88,7 +88,6 @@
         </form>
         <!-- forget and sign up btn -->
         <div class="form-btns">
-          <a href="#" class="forget">Quên mật khẩu</a>
           <a href="javascript:void(0);" class="sign-up-btn">Đăng kí tài khoản</a>
         </div>
       </div>
@@ -104,7 +103,7 @@
         <p id="note-if-signup"></p>
         <form>
             <input type="text" placeholder="Tên người dùng" name = "username" id="username">
-            <input type="email" placeholder="Email đăng kí" name = "email" id="email" >
+            <input type="email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="Email đăng kí" name = "email" id="email" >
             <input type="password" placeholder="Mật khẩu" name = "password" id="password">
             <!-- submit btn -->
             <input value="Đăng kí" class = "btn btnsignup" id="btnsignup">
