@@ -3,6 +3,7 @@
     if(isset($_POST['valuesearch'])){
       $valuesearch = $_POST['valuesearch'];
       $where = "WHERE tensanpham LIKE '%${valuesearch}%'";
+      
     }else{
       $where = '';
 		  $valuesearch = '';

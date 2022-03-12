@@ -46,10 +46,11 @@
                 <li> 
                   <form action="searchproduct.php" class="search-product" method = "post">
                     <input type="text" class="" id="exampleFormControlInput1 valuesearch" placeholder="tìm kiếm sản phẩm" name = "valuesearch"
-					value = <?php 
-                      if(isset($valuesearch)) {
-                        echo $valuesearch; }
-                        ?>>
+					            value = '<?php 
+                        if(isset($valuesearch)){
+                          echo $valuesearch;
+                        }
+                       ?>'>
                     <button type = "submit" class="btn-search" id="searchproducts"><i class="fas fa-search"></i></button>
                   </form>
                 </li>
