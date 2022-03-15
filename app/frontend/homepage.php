@@ -28,7 +28,7 @@
     <section class="new-arrival mt-5">
         <!-- heading -->
         <div class="arrival-heading">
-          <strong>Sản phẩm mới đăng</strong>
+          <strong class="spmoidang">Sản phẩm mới đăng</strong>
           <!-- <p>Những sản phẩm bán chạy nhất</p> -->
         </div>
         <!-- product container -->

@@ -8,6 +8,7 @@
       $where = '';
 		  $valuesearch = '';
     }
+    
     if(isset($_SESSION['user_login'])){
         include './partition/headerlogin.php';
     }else{

@@ -44,30 +44,7 @@ $(document).ready(function(){
         );
     })
 
-    // sell products
-    $('#sell').click(function(){
-        $name = $('#name').val();
-        $details = $('#details').val();
-        $amount = $('#amount').val();
-        $price = $('#price').val();
-        $address = $('#address').val();
-        $phone = $('#phone').val();
-        $image = $('#image').val();
-        $.post(
-            '../process/dangban.php',
-            {
-                name : $name,
-                details : $details,
-                amount : $amount,
-                price : $price,
-                address : $address,
-                phone : $phone,
-                image : $image
-            },function(respons){
-                $('.notification').html('Thông báo: ' + respons);
-            }
-        )
-    })
+    
 
 
 })
