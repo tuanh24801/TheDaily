@@ -14,13 +14,8 @@
          <div class="col-5">
             <a href="./sellproducts.php" class = "btn btn-outline-success">Thêm sản phẩm</a>
          </div>
-            
-            
         </div>
-<!-- New Arrival-->
     <section class="new-arrival mt-5">
-        <!-- heading -->
-         <!-- product container -->
          <div class="product-container">
         <?php
             
@@ -30,19 +25,14 @@
             if(mysqli_num_rows($result) > 0){
                while($row = mysqli_fetch_assoc($result)){
                    ?>
-                  
                     <!-- product box 1 -->
                     <div class="product-box">
-                        <!-- img -->
                         <div class="product-img">
-                        
                         <img src="../uploads/<?php echo $row['anhsanpham']?>" alt="">
                         </div>
-                        <!-- details -->
                         <div class="product-details">
                         <a href="#" class="p-name"><?php echo $row['tensanpham']?></a>
                         <span class="p-price"><?php echo $row['giaban']?> vnđ</span>
-                        
                         </div>
                             <div class="row">
                             <div class="col-6">
@@ -60,14 +50,9 @@
                 echo '<h2>Bạn chưa có sản phẩm nào</h2>';
             }
         ?>
-    
-          
         </div>
         <div class="row mt-5 mb-5">
-       
     </section>
-    
-        
     </div>
     </div>
 

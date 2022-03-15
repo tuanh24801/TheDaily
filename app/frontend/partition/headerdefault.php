@@ -23,14 +23,9 @@
     <nav>
         <div class="social-call">
             <div class="social">
-                <!-- <a href="#"><i class="fab fa-facebook-f btnsignup"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a> -->
                 <a href="#">TheDaily web bán đồ cũ đang có chương trình free ship 0đ</a>
             </div>
             <div class="phone">
-                <!-- <span></span> -->
             </div>
         </div>
         <!-- menu bar -->
@@ -56,7 +51,6 @@
             </ul>
             <!-- right menu -->
             <div class="right-menu mb-3 d-flex">
-              <!-- <a href="javascript:void(0);" class = "search"><i class="fas fa-search"></i></a> -->
               <a href="javascript:void(0);" class = "user user-login btnloginactive sign-up-btn"><i class="fas fa-user"></i> Đăng kí</a>
               <a href="javascript:void(0);" class = "user user-login btnloginactive"><i class="fas fa-user"></i> Đăng nhập</a>
             
@@ -75,16 +69,10 @@
         </a>
         <strong>Đăng nhập</strong>
         <p id="note-if-login"></p>
-        <!-- <form method="post" action = "../process/dangnhap.php"> -->
         <form>
             <input type="email" placeholder="Email đăng kí" name = "email" id="emaillogin" >
             <input type="password" placeholder="Mật khẩu" name = "password" id="passlogin">
-            <!-- submit btn -->
-            <!-- <input type = "submit" value="Sign in" class = "btn btnsignin"> -->
-
             <input value="Đăng nhập" class = "btn btnsignin" id="btnsignin">
-
-            <!-- <a href="#" class="login btn btn-success">login</a> -->
         </form>
         <!-- forget and sign up btn -->
         <div class="form-btns">
@@ -97,9 +85,7 @@
         <a href="javascript:void(0);" class="form-cancel">
           <i class="fas fa-times"></i>
         </a>
-        
         <strong>Đăng kí</strong>
-       
         <p id="note-if-signup"></p>
         <form>
             <input type="text" placeholder="Tên người dùng" name = "username" id="username">
@@ -112,7 +98,6 @@
         <div class="form-btns">
           <a href="javascript:void(0);" class="already-account">Bạn đã có tài khoản ?</a>
           <a href="javascript:void(0);" class="already-account sign-in-btn">Đăng nhập</a>
-
         </div>
       </div>
     </div>

@@ -10,7 +10,6 @@
   <div class="container-fluid">
 <!-- end header -->
       <div class="full-slider-box f-slide-1">
-          <!-- slider text container -->
           <div class="slider-text-container">
               <div class="f-slider-text">
                 <span>Ưu đã tháng 3</span>
@@ -19,19 +18,10 @@
               </div>
           </div>
       </div>
-
-      <?php
-        //include './partition/categories.php';
-      ?>
-
-    <!-- New Arrival-->
     <section class="new-arrival mt-5">
-        <!-- heading -->
         <div class="arrival-heading">
-          <strong class="spmoidang">Sản phẩm mới đăng</strong>
-          <!-- <p>Những sản phẩm bán chạy nhất</p> -->
+          <strong class="spmoidang">Sản phẩm bán chạy</strong>
         </div>
-        <!-- product container -->
         <div class="product-container">
           <?php
             $getproducts = "SELECT * FROM sanpham LIMIT 5";
@@ -39,11 +29,8 @@
             if(mysqli_num_rows($result) > 0){
               while($row = mysqli_fetch_assoc($result)){
                 ?>
-                <!-- product box 1 -->
                   <div class="product-box">
-                    <!-- img -->
                     <div class="product-img">
-                      <!-- add cart -->
                       <a href="#" class="add-cart">
                         <i class="fas fa-shopping-cart"></i>
                       </a>
@@ -51,13 +38,11 @@
                       <img src="../uploads/<?php echo $row['anhsanpham']?>" alt="">
                       </a>
                     </div>
-                    <!-- details -->
                     <div class="product-details">
                       <a href="#" class="p-name"><?php echo $row['tensanpham']?></a>
                       <span class="p-price"><?php echo $row['giaban'] ?> vnđ</span>
                     </div>
                   </div>
-                  <!-- end product box 1 -->
                 <?php
               }
             }else{

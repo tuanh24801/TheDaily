@@ -6,7 +6,6 @@
         header('location: ./homepage.php');
     }
 ?>
-
 <div class="container">
     <h5 class = "text-center mt-3 mb-3">Trang bán hàng</h5>
     <div class="row">

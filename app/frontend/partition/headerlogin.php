@@ -22,16 +22,10 @@
       <!-- navigation -->
     <nav>
         <div class="social-call">
-            <div class="social">
-              
-                <!-- <a href="#"><i class="fab fa-facebook-f btnsignup"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a> -->
+            <div class="social">               
                 <a href="#">TheDaily web bán đồ cũ đang có chương trình free ship 0đ</a>
             </div>
             <div class="phone">
-                <!-- <span><p>Dòng này để nói cho con đào chó biết là nó có tác dụng</p></span> -->
             </div>
         </div>
         <!-- menu bar -->
@@ -57,7 +51,6 @@
             </ul>
             <!-- right menu -->
             <div class="right-menu mb-3">
-              <!-- <a href="javascript:void(0);" class = "search"><i class="fas fa-search"></i></a> -->
               <div class="dropdown drop-active">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false"></button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -68,7 +61,6 @@
             </div>
               <div class="drop-none">
                 <a href="./sellproducts.php" class = "user user-login"><i class="fal fa-cart-plus"></i> Đăng bán</a>
-                
                 <?php
                  include '../../database/config.php';
                  $id_nguoidung =  $_SESSION['user_login'];

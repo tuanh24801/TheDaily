@@ -5,6 +5,6 @@
     const DATABASE_NAME = 'db_thedaily';
     $conn = mysqli_connect(HOST, USERNAME, PASSWORD, DATABASE_NAME);
     if(!$conn){
-        echo 'lỗi con mẹ rồi';
+        echo 'Lỗi kết nối Database';
     }
 ?>
