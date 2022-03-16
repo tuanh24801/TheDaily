@@ -4,8 +4,7 @@
    $details = $_POST['details'];
    $amount = $_POST['amount'];
    $price = $_POST['price'];
-   $address = $_POST['address'];
-   $phone = $_POST['phone'];
+
    $image = basename($_FILES["imageupload"]["name"]);
    $target_dir = "../uploads/";
    $target_file = $target_dir.$image;
@@ -13,8 +12,8 @@
     require '../../database/config.php';
     $iduser = $_SESSION['user_login'];
     
-    $addproducts = "INSERT INTO sanpham(tensanpham,soluong,giaban, mota, anhsanpham, sodienthoailienhe, diachi, id_nguoidung) 
-                                VALUES('$name', '$amount', '$price', '$details', '$image', '$phone', '$address', '$iduser')";
+    $addproducts = "INSERT INTO sanpham(tensanpham,soluong,giaban, mota, anhsanpham, id_nguoidung) 
+                                VALUES('$name', '$amount', '$price', '$details', '$image', '$iduser')";
 
     $result = mysqli_query($conn,$addproducts);
     if($result > 0){
