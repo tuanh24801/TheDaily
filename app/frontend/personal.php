@@ -19,8 +19,8 @@
          <div class="product-container">
         <?php
             
-            $id_nguoidung = $_SESSION['user_login'];
-            $getproducts = "SELECT * FROM sanpham WHERE id_nguoidung = '$id_nguoidung'";
+            $id_taikhoan = $_SESSION['user_login'];
+            $getproducts = "SELECT * FROM sanpham WHERE id_taikhoan = '$id_taikhoan'";
             $result = mysqli_query($conn,$getproducts);
             if(mysqli_num_rows($result) > 0){
                while($row = mysqli_fetch_assoc($result)){
