@@ -63,8 +63,8 @@
                 <a href="./sellproducts.php" class = "user user-login"><i class="fal fa-cart-plus"></i> Đăng bán</a>
                 <?php
                  include '../../database/config.php';
-                 $id_nguoidung =  $_SESSION['user_login'];
-                  $getname = "SELECT hoten FROM nguoidung WHERE id_nguoidung = '$id_nguoidung'";
+                 $id_taikhoan =  $_SESSION['user_login'];
+                  $getname = "SELECT hoten FROM taikhoan WHERE id_taikhoan = '$id_taikhoan'";
                   $result = mysqli_query($conn,$getname);
                   $row = mysqli_fetch_assoc($result);
                 ?>

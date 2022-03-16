@@ -12,7 +12,7 @@
     require '../../database/config.php';
     $iduser = $_SESSION['user_login'];
     
-    $addproducts = "INSERT INTO sanpham(tensanpham,soluong,giaban, mota, anhsanpham, id_nguoidung) 
+    $addproducts = "INSERT INTO sanpham(tensanpham,soluong,giaban, mota, anhsanpham, id_taikhoan) 
                                 VALUES('$name', '$amount', '$price', '$details', '$image', '$iduser')";
 
     $result = mysqli_query($conn,$addproducts);

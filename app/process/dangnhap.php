@@ -18,14 +18,14 @@
                 die;
         }
         
-        $sql = "SELECT * from nguoidung";
+        $sql = "SELECT * from taikhoan";
         $result = mysqli_query($conn,$sql);
         while($row = mysqli_fetch_assoc($result)){
                 if($email == $row['email'] && $password == $row['matkhau']){
                         echo 'Đăng nhập thành công';
                         session_start();
 
-                        $_SESSION['user_login'] = $row['id_nguoidung'];
+                        $_SESSION['user_login'] = $row['id_taikhoan'];
                         die;
                 }
         }

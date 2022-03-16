@@ -23,7 +23,7 @@
         <div class="product-container">
           <?php
             
-            $getproducts = "SELECT * FROM sanpham ${where}";
+            $getproducts = "SELECT * FROM sanpham ${where} ORDER BY id_sanpham DESC";
             $result = mysqli_query($conn,$getproducts);
             if(mysqli_num_rows($result) > 0){
               while($row = mysqli_fetch_assoc($result)){

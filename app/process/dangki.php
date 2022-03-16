@@ -28,7 +28,7 @@
                 die;
         }
         
-        $sql = "SELECT email from nguoidung";
+        $sql = "SELECT email from taikhoan";
         $result = mysqli_query($conn,$sql);
         while($row = mysqli_fetch_assoc($result)){
                 if($email == $row['email']){
@@ -36,7 +36,7 @@
                         die;
                 }
         }
-        $addacc = "INSERT INTO nguoidung(hoten,email,matkhau) VALUES('$username', '$email', '$password')";
+        $addacc = "INSERT INTO taikhoan(hoten,email,matkhau) VALUES('$username', '$email', '$password')";
         $result = mysqli_query($conn,$addacc);
         if($result > 0){
                 echo 'Đăng kí thành công';

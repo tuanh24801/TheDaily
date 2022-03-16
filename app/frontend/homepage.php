@@ -24,7 +24,7 @@
         </div>
         <div class="product-container">
           <?php
-            $getproducts = "SELECT * FROM sanpham LIMIT 5";
+            $getproducts = "SELECT * FROM sanpham ORDER BY id_sanpham DESC LIMIT 5";
             $result = mysqli_query($conn,$getproducts);
             if(mysqli_num_rows($result) > 0){
               while($row = mysqli_fetch_assoc($result)){
