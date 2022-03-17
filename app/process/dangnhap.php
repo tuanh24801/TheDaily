@@ -21,7 +21,7 @@
         $sql = "SELECT * from taikhoan";
         $result = mysqli_query($conn,$sql);
         while($row = mysqli_fetch_assoc($result)){
-                if($email == $row['email'] && $password == $row['matkhau']){
+                if($email == $row['email'] && password_verify($password,$row['matkhau'])){
                         echo 'Đăng nhập thành công';
                         session_start();
 
