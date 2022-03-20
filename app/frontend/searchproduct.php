@@ -30,15 +30,15 @@
                 ?>
                   <div class="product-box">
                     <div class="product-img">
-                      <a href="detailsproduct.php?id=<?php echo $row['id_sanpham']?>" class="add-cart">
+                      <a href="detailsproduct.php?id1=<?php echo $row['id_sanpham']?>" class="add-cart">
                         <i class="fas fa-shopping-cart"></i>
                       </a>
-                      <a href="detailsproduct.php?id=<?php echo $row['id_sanpham']?>">
+                      <a href="detailsproduct.php?id1=<?php echo $row['id_sanpham']?>">
                       <img src="../uploads/<?php echo $row['anhsanpham']?>" alt="">
                       </a>
                     </div>
                     <div class="product-details">
-                      <a href="detailsproduct.php?id=<?php echo $row['id_sanpham']?>" class="p-name"><?php echo $row['tensanpham']?></a>
+                      <a href="detailsproduct.php?id1=<?php echo $row['id_sanpham']?>" class="p-name"><?php echo $row['tensanpham']?></a>
                       <span class="p-price"><?php echo $row['giaban'] ?> vnđ</span>
                     </div>
                   </div>

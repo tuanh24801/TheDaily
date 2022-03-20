@@ -6,21 +6,30 @@
         include '../../database/config.php';
         include './partition/headerdefault.php';
     }
-    if(isset($_GET['id'])){
-        $id_sanpham = $_GET['id'];
-    }
+    
 ?>
+        
+    <div class="container">
+        <div class="row mb-3 mt-4">
+            <div class="col-3">
+                <?php
+                    if(isset($_GET['id'])){
+                        $id_sanpham = $_GET['id'];
+                        echo '<a href="homepage.php" class= "btn btn-outline-secondary">Quay lại</a>';
+                    }
+                    if(isset($_GET['id1'])){
+                        $id_sanpham = $_GET['id1'];
+                        echo '<a href="searchproduct.php" class= "btn btn-outline-secondary">Quay lại</a>';
+                    }
+                ?>
+                <!-- <a href="homepage.php" class= "btn btn-outline-secondary">Quay lại</a> -->
+            </div>
+        </div>
         <?php
             $getproducts = "SELECT * FROM sanpham WHERE id_sanpham = '$id_sanpham'";
             $result = mysqli_query($conn,$getproducts);
             $row = mysqli_fetch_assoc($result)
                 ?>
-    <div class="container">
-        <div class="row mb-3 mt-4">
-            <div class="col-3">
-                <a href="homepage.php" class= "btn btn-outline-secondary">Quay lại</a>
-            </div>
-        </div>
         <div class="row">
             <div class="col-1"></div>
             <div class="col-10">
