@@ -28,6 +28,18 @@
                     </div>
                 </div>
                 <div class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Tình Trạng</label>
+                    <div class="col">
+                        <input type="text" class="form-control" name="status" required>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Thời gian sử dụng</label>
+                    <div class="col">
+                        <input type="text" class="form-control" name="timeused" required>
+                    </div>
+                </div>
+                <div class="mb-3 row">
                     <label for="inputPassword" class="col-sm-2 col-form-label">Mô tả</label>
                     <div class="col">
                         <input type="text" class="form-control" name="details" required>
