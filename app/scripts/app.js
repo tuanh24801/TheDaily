@@ -167,7 +167,7 @@ $(document).ready(function(){
                 function(data){
                     swal('Thêm tài khoản thành công',{
                         icon:"success",
-                    })
+                    });
                     
                 }
             );
