@@ -28,8 +28,8 @@
                                 <tr>
                                     <td>ID</td>
                                     <td>Email</td>
-                                    <td>Họ Tên</td>
-                                    <td>Xem chi tiết</td>
+                                    <td>Họ tên</td>
+                                    <td>Mật khẩu</td>
                                     <td>Xóa tài khoản</td>
                                 </tr>
                             </thead>
