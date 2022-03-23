@@ -31,7 +31,6 @@ $(document).ready(function(){
             },function(respons){
                 if(respons == 'Đăng nhập thành công'){
                     location.reload();
-                    // location.replace('../frontend/homepage.php');
                 }else{
                     $('#note-if-login').html(respons);
                 }
@@ -81,6 +80,9 @@ $(document).ready(function(){
             }
         );
     });
+
+
+    // function valid email
     function isEmailValid(email) {
         const emailRegexp = new RegExp(
             /^[a-z0-9](\.?[a-z0-9]){5,}@gmail\.com$/
@@ -115,7 +117,7 @@ $(document).ready(function(){
             passEmail = 'false';
         }else{
             if(!isEmailValid(emailinput)){
-                $('.emailnotiferror').html('Định dạng email không hợp lê');
+                $('.emailnotiferror').html('(*) Định dạng email không hợp lê');
                 $('.emailinput').addClass('errorinput');
                 passEmail = 'false';
             }else{
@@ -154,7 +156,7 @@ $(document).ready(function(){
             passPassWord = 'true';
         }
     });
-
+    // input value success
     $('.btnsubmit').click(function(){
         var passinput = $('.passinput').val();
         var emailinput = $('.emailinput').val();

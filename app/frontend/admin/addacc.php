@@ -19,9 +19,10 @@
                     <input type="password" class="passinput" placeholder="Mật khẩu">
                     <p for="" class = "passnotiferror notiferror"></p>
 
-                
-                    <button class="btnsubmit text-center" >Tạo tài khoản</button>
-                    <p for="" class = "submitnotiferror notiferror"></p>
+                    <div class="text-center">
+                        <button class="btnsubmit text-center" >Tạo tài khoản</button>
+                        <p for="" class = "submitnotiferror notiferror"></p>
+                    </div>
             </div>
         </div>
         

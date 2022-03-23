@@ -48,7 +48,7 @@
                 <img src="../../../images/fav-icon.png" width="40px" height="40px" alt="">
                 <div>
                     <h4>Thanh Dao</h4>
-                    <small>Supper idol</small>
+                    <small>Admin</small>
                 </div>
             </div>
         </header>
