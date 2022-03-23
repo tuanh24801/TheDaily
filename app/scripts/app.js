@@ -51,9 +51,10 @@ $(document).ready(function(){
             buttons: {
                 cancel: "Hủy",
                 catch: {
-                  text: "Xóa",
+                  text: "Xác nhận",
                   value: "catch",
                 },
+                
             },
             dangerMode: true,
           })
