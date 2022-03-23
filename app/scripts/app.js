@@ -46,7 +46,15 @@ $(document).ready(function(){
             title: "Xóa tài khoản này?",
             text: "Tài khoản đã xóa không thể khôi phục được!!",
             icon: "warning",
-            buttons: true,
+            // buttons: true,
+            dangerMode: true,
+            buttons: {
+                cancel: "Hủy",
+                catch: {
+                  text: "Xóa",
+                  value: "catch",
+                },
+            },
             dangerMode: true,
           })
           .then((willDelete) => {
